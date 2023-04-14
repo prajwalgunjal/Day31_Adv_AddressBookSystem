@@ -104,3 +104,19 @@ rutik	| gaikwad| xyz  |   Friends	| kasarwadi |   pune	|   maharashtra	|   41103
 arpit	|   patil|	abc	|   Family	|   rahtni	|   pune	|   maharashtra	|   411029	|   8928038762	|   Arpit@gmail.com
 prasad	|   lomte|  xyz	|   Friends	|   akurdi	|   pune	|   maharashtra	|   411025	|   9421013180	|   Prasad@gmail.com
 ______________________________________________________________________________________________________________________________________
+
+
+#uc 10 : Ability to get number of contact persons i.e. count by type
+
+select count(type) from addressBook
+where type = "Family";
+--------------------
+count(type)
+2
+--------------------
+select count(type) from addressBook
+where type = "Friends";
+--------------------
+count(type)
+2
+--------------------
