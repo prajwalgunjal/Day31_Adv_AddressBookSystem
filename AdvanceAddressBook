@@ -120,3 +120,17 @@ where type = "Friends";
 count(type)
 2
 --------------------
+
+
+# uc 11 Ability to add person to both Friend and Family
+insert into addressBook(first_name,last_name,address_book_name,type,address,city,state,zip,phone_number,email)
+values("Rutik","Hajare","abc","Family","Thane","Thane","Maharashtra",423134,234323,"hajare11@gmail.com"),
+("Vishal","Paul","xyz","Friends","Ghatkopar","Thane","Maharashtra",4567891,2343,"paul65@yahoo.in");
+select *from addressBook;
+
+jagu	|   bai	|   abc	|   Family	|   sidko	|   nashik	|   maharashtra	|   40001	|   333333333	|   jagubai@gmail.com
+rutik	|gaikwad|   xyz	|   Friends	|  kasarwadi|   pune	|   maharashtra	|   411034	|   7894561230	|  	Rutik@gmail.com
+arpit	| patil	|   abc	|   Family	|   rahtni	|   pune	|   maharashtra	|  411029	|   8928038762  | 	Arpit@gmail.com
+prasad	|lomte  |   xyz	|   Friends	|   akurdi	|   pune	|   maharashtra	|   411025	|   9421013180	|   Prasad@gmail.com
+Rutik	|Hajare	|   abc	|   Family	|   Thane	|   Thane	|   Maharashtra	|   423134	|   234323	    |   hajare11@gmail.com
+Vishal	| Paul	|   xyz	|   Friends	|  Ghatkopar|   Thane	|   Maharashtra	|   4567891	|   2343	    |   paul65@yahoo.in
