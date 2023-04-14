@@ -62,3 +62,11 @@ arpit	|   patil	|   rahtni	    |   pune	    |   maharashtra	    |   411029	    |
 prasad	|   lomte	|   akurdi	    |   pune	    |   maharashtra	    |   411025	    |   9421013180	    |   Prasad@gmail.com
 -----------------------------------------------------------------------------------------------------------------------------------
 
+# uc 6 :-Ability to Retrieve Person belonging to a City or State from the Address Book
+
+select city ,state from addressBook where first_name ="jagu";
+16:01:37	select city ,state from addressBook where first_name ="jagu" LIMIT 0, 1000	1 row(s) returned	0.000 sec / 0.000 sec
+--------------------
+nashik	|   maharashtra
+--------------------
+
