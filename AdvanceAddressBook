@@ -67,6 +67,14 @@ prasad	|   lomte	|   akurdi	    |   pune	    |   maharashtra	    |   411025	    
 select city ,state from addressBook where first_name ="jagu";
 16:01:37	select city ,state from addressBook where first_name ="jagu" LIMIT 0, 1000	1 row(s) returned	0.000 sec / 0.000 sec
 --------------------
+city	|   state
 nashik	|   maharashtra
 --------------------
 
+# uc 7: - Ability to understand the size of address book by City and State
+select count(city),count(state) from addressBook where city ="pune" and state="maharashtra";
+16:04:42	select count(city),count(state) from addressBook where city ="pune" and state="maharashtra" LIMIT 0, 1000	1 row(s) returned	0.000 sec / 0.000 sec
+--------------------
+city	|   state
+3	    |   3
+--------------------
