@@ -38,3 +38,14 @@ prasad	|   lomte	|   akurdi	    |   pune	|   maharashtra	|   411025	|   94210131
 hitesh	|   wagh	|   sinner	    |   nashik	|   maharashtra	|   41178	|   8844662578	|   Hitesh@gmail.com
 ------------------------------------------------------------------------------------------------------------------
 
+#uc4 :- Ability to edit existing contact person using their name
+
+update addressBook set phone_number=333333333 where first_name ="prajwal";
+output--> 15:55:32	update addressBook set phone_number=333333333 where first_name ="jagu"	1 row(s) affected Rows matched: 1  Changed: 1  Warnings: 0	0.000 sec
+-----------------------------------------------------------------------------------------------------------------------------------
+jagu	|   bai		|   sidko		|   nashik		|   maharashtra		|   40001		|   333333333		|   jagubai@gmail.com
+rutik	|   gaikwad	|   kasarwadi	|  	pune	    |   maharashtra	    |   411034		|   7894561230		|   Rutik@gmail.com
+arpit	|   patil	|   rahtni	    |   pune	    |   maharashtra	    |   411029	    |   8928038762	    |   Arpit@gmail.com
+prasad	|   lomte	|   akurdi	    |   pune	    |   maharashtra	    |   411025	    |   9421013180	    |   Prasad@gmail.com
+hitesh	|   wagh	|   sinner	    |   nashik	    |   maharashtra	    |   41178	    |   8844662578	    |   Hitesh@gmail.com
+-----------------------------------------------------------------------------------------------------------------------------------
