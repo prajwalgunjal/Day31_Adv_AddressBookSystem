@@ -78,3 +78,14 @@ select count(city),count(state) from addressBook where city ="pune" and state="m
 city	|   state
 3	    |   3
 --------------------
+
+
+# uc8:- Ability to retrieve entries sorted alphabetically by Person’s name for a given city
+select first_name from addressBook where city ="pune" order by first_name asc;
+16:06:54	select first_name from addressBook where city ="pune" order by first_name asc LIMIT 0, 1000	3 row(s) returned	0.000 sec / 0.000 sec
+--------------------
+first_name
+arpit
+prasad
+rutik
+--------------------
