@@ -16,3 +16,25 @@ sql-->>    create table addressbook(first_name varchar(40) not null,
                         email varchar(40));
 
 output-->> 15:42:53	create table addressbook(first_name varchar(40) not null,last_name varchar(40) not null ,address varchar(40), varchar(40),state varchar(40),zip int,phone_number long,email varchar(40))0 row(s) affected	0.015 sec
+
+
+# UC 3: Ability to insert new Contacts to Address Book
+insert into addressBook(first_name,last_name,address,city,state,zip,phone_number,email) value
+("jagu","bai","sidko","nashik","maharashtra",40001,784512589,"jagubai@gmail.com")
+,("rutik","gaikwad","kasarwadi","pune","maharashtra",411034,7894561230,"Rutik@gmail.com"),
+("arpit","patil","rahtni","pune","maharashtra",411029,8928038762,"Arpit@gmail.com"),
+("prasad","lomte","akurdi","pune","maharashtra",411025,9421013180,"Prasad@gmail.com"),
+("hitesh","wagh","sinner","nashik","maharashtra",41178,8844662578,"Hitesh@gmail.com");
+
+select* from addressBook;
+
+output-->>
+15:48:53	insert into addressBook(first_name,last_name,address,city,state,zip,phone_number,email) value ("jagu","bai","sidko","nashik","maharashtra",40001,784512589,"jagubai@gmail.com") ,("rutik","gaikwad","kasarwadi","pune","maharashtra",411034,7894561230,"Rutik@gmail.com"), ("arpit","patil","rahtni","pune","maharashtra",411029,8928038762,"Arpit@gmail.com"), ("prasad","lomte","akurdi","pune","maharashtra",411025,9421013180,"Prasad@gmail.com"), ("hitesh","wagh","sinner","nashik","maharashtra",41178,8844662578,"Hitesh@gmail.com")	5 row(s) affected Records: 5  Duplicates: 0  Warnings: 0	0.016 sec
+------------------------------------------------------------------------------------------------------------------
+jagu	|   bai	    |   sidko	    |   nashik	|   maharashtra	|   40001	|   784512589	|   jagubai@gmail.com
+rutik	|   gaikwad	|   kasarwadi	|   pune	|   maharashtra	|   411034	|   7894561230	|   Rutik@gmail.com
+arpit	|   patil	|   rahtni	    |   pune	|   maharashtra	|   411029	|   8928038762	|   Arpit@gmail.com
+prasad	|   lomte	|   akurdi	    |   pune	|   maharashtra	|   411025	|   9421013180	|   Prasad@gmail.com
+hitesh	|   wagh	|   sinner	    |   nashik	|   maharashtra	|   41178	|   8844662578	|   Hitesh@gmail.com
+------------------------------------------------------------------------------------------------------------------
+
