@@ -49,3 +49,16 @@ arpit	|   patil	|   rahtni	    |   pune	    |   maharashtra	    |   411029	    |
 prasad	|   lomte	|   akurdi	    |   pune	    |   maharashtra	    |   411025	    |   9421013180	    |   Prasad@gmail.com
 hitesh	|   wagh	|   sinner	    |   nashik	    |   maharashtra	    |   41178	    |   8844662578	    |   Hitesh@gmail.com
 -----------------------------------------------------------------------------------------------------------------------------------
+
+
+#uc5 :- Ability to delete a person using person's name
+
+delete from addressBook where first_name ="hitesh";
+15:59:44	delete from addressBook where first_name ="hitesh"	1 row(s) affected	0.016 sec
+-----------------------------------------------------------------------------------------------------------------------------------
+jagu	|   bai		|   sidko		|   nashik		|   maharashtra		|   40001		|   333333333		|   jagubai@gmail.com
+rutik	|   gaikwad	|   kasarwadi	|  	pune	    |   maharashtra	    |   411034		|   7894561230		|   Rutik@gmail.com
+arpit	|   patil	|   rahtni	    |   pune	    |   maharashtra	    |   411029	    |   8928038762	    |   Arpit@gmail.com
+prasad	|   lomte	|   akurdi	    |   pune	    |   maharashtra	    |   411025	    |   9421013180	    |   Prasad@gmail.com
+-----------------------------------------------------------------------------------------------------------------------------------
+
