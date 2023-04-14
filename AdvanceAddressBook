@@ -1,1 +1,4 @@
-welcome to Adv addressBook
+# UC1 :-  Ability to create a Address Book Service DB
+sql-->>   create database addressBook;
+output-->>
+15:38:41	create database addressBook	1 row(s) affected	0.000 sec
