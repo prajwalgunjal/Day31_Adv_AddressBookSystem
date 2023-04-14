@@ -89,3 +89,18 @@ arpit
 prasad
 rutik
 --------------------
+
+#UC9 :- Ability to identify each Address Book with name and Type.
+alter table addressBook add address_book_name varchar(20) after last_name;
+alter table addressBook add type varchar(20) after address_book_name;
+update addressBook set address_book_name = "abc" , type = "Family"
+where first_name in("jagu","arpit");
+update addressBook set address_book_name = "xyz" , type = "Friends"
+where first_name in("prasad","hitesh","rutik");
+select* from addressBook;
+______________________________________________________________________________________________________________________________________
+jagu	|   bai	|   abc	|   Family	|   sidko	|   nashik	|   maharashtra	|   40001	|   333333333	|   jagubai@gmail.com
+rutik	| gaikwad| xyz  |   Friends	| kasarwadi |   pune	|   maharashtra	|   411034	|   7894561230	|   Rutik@gmail.com
+arpit	|   patil|	abc	|   Family	|   rahtni	|   pune	|   maharashtra	|   411029	|   8928038762	|   Arpit@gmail.com
+prasad	|   lomte|  xyz	|   Friends	|   akurdi	|   pune	|   maharashtra	|   411025	|   9421013180	|   Prasad@gmail.com
+______________________________________________________________________________________________________________________________________
